@@ -1,7 +1,9 @@
 # Q-learning_for_trajectory_planning
 Using Q-learning for automated driving trajectory planning
 
-## install required lib 
+## install required libs 
+`conda create -n env-name python=3.7`
+
 `pip install gym==0.18.0`
 
 `pip install numpy`
