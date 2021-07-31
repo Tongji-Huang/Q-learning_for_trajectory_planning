@@ -1,12 +1,19 @@
 # Q-learning_for_trajectory_planning
 Using Q-learning for automated driving trajectory planning
 
+## install required lib 
+`pip install gym==0.18.0`
+
+`pip install numpy`
+
+## replace cliffwalking 
 modified cliffwalking environment can be found in: 
-gym-master/gym/envs/toy_text/cliffwalking.py
+"gym-master/gym/envs/toy_text/cliffwalking.py"
 
-`pip install gym==0.18.0
-pip install numpy`
+## rebuild gym in local 
+`pip install -e .`
 
+## start training 
 `python train.py`
 
 # Training video 
